@@ -6,11 +6,59 @@
   <component name="ChangeListManager">
     <list default="true" id="f19766ed-263d-468c-97fd-14c80443b2d2" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/API-Gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API-Gateway/src/main/java/org/example/APIGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application-docker.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Discovery-Server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discovery-Server/src/main/java/org/example/discovery/server/DiscoveryServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discovery-Server/src/main/resources/application-docker.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discovery-Server/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Inventory-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/demo/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/demo/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/demo/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/demo/model/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/demo/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/example/demo/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application-docker.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inventory-Service/src/test/java/com/example/demo/InventoryServiceApplicationTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Notification-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification-Service/src/main/java/org/example/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification-Service/src/main/java/org/example/notificationDTO/OrderPlacedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification-Service/src/main/resources/application-docker.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification-Service/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Order-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/entity/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/entity/OrderLineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/orderDTO/OrderLineItemsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/orderDTO/OrderPlacedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/orderDTO/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application-docker.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-Service/src/test/java/com/example/demo/OrderServiceApplicationTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Product-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/example/demo/DTO/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/example/demo/DTO/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/example/demo/ProductService1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/example/demo/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/example/demo/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/example/demo/repository/ProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/example/demo/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/example/demo/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/application-docker.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product-Service/src/test/java/com/example/demo/ProductService1ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,56 +86,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.APIGateway.executor": "Run",
-    "Application.APIGatewayApplication.executor": "Run",
-    "Application.DiscoveryServer.executor": "Run",
-    "Application.InventoryServiceApplication.executor": "Run",
-    "Application.NotificationService.executor": "Run",
-    "Application.OrderServiceApplication.executor": "Run",
-    "Application.ProductService1Application.executor": "Run",
-    "Application.com.example.api.gateway.APIGateway.executor": "Run",
-    "Docker.docker-compose.yml.api-gateway: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.broker: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.discovery-server: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.discovery: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.grafana: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.inventory-service: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.kafka: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mongo: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mysql-inventory: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mysql-service: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mysql: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mysqldb: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.notification-service: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.order-service: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.postgres-inventory: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.postgres-order: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.product-service: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.prometheus: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.zipkin: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.zookeeper: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "Maven.Microservices-Parent [build].executor": "Run",
-    "Maven.Microservices-Parent [clean,compile...].executor": "Run",
-    "Maven.Microservices-Parent [clean].executor": "Run",
-    "Maven.Microservices-Parent [com.google.cloud.tools:jib-maven-plugin:3.2.1:build].executor": "Run",
-    "Maven.Microservices-Parent [install].executor": "Run",
-    "Maven.Microservices-Parent [jib:build].executor": "Run",
-    "Maven.Microservices-Parent [jib:clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bharathchowdary/Documents/SpringBoot-Projects/Microservices-Parent/Order-Service/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "tasks"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.APIGateway.executor&quot;: &quot;Run&quot;,
+    &quot;Application.APIGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiscoveryServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InventoryServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NotificationService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductService1Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.example.api.gateway.APIGateway.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.api-gateway: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.broker: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.discovery-server: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.discovery: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.grafana: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.inventory-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.kafka: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mongo: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mysql-inventory: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mysql-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mysql: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mysqldb: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.notification-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.order-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.postgres-inventory: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.postgres-order: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.product-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.prometheus: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.zipkin: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.zookeeper: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [build].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [clean,compile...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [com.google.cloud.tools:jib-maven-plugin:3.2.1:build].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [jib:build].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [jib:clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bharathchowdary/Documents/SpringBoot-Projects/Microservices-Parent/Order-Service/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;tasks&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.demo.entity" />
@@ -208,12 +256,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/service/OrderService.java</url>
-          <line>58</line>
+          <line>57</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Order-Service/src/main/java/com/example/demo/service/OrderService.java</url>
-          <line>60</line>
+          <line>59</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

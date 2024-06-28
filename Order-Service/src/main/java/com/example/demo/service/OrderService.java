@@ -44,7 +44,6 @@ public class OrderService {
         Order order = new Order();
         order.setId(orderRequest.getId());
         order.setOrderNumber(orderRequest.getOrderNumber());
-        log.warn("placeOrder Request service method");
         List<OrderLineItem> orderLineItems = orderRequest.getOrderLineItemsListDTO().stream().map(this::mapToOrderLineItemList).toList();
         order.setOrderLineItemList(orderLineItems);
         List<String> skuCode = order.getOrderLineItemList().stream().map(OrderLineItem::getSkuCode).toList();
