@@ -54,7 +54,12 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
-
+  ## Zipkin
+  zipkin:
+    image: openzipkin/zipkin
+    container_name: zipkin
+    ports:
+      - "9411:9411"
   discovery-server:
     image: bharathchavala/microservice-app:discovery-server
     container_name: discovery-server
@@ -65,6 +70,9 @@ services:
       - SPRING_PROFILES_ACTIVE=docker
     networks:
       - springboot-mysql-network
+    depends_on:
+      - zipkin
+
 
   api-gateway:
     image: bharathchavala/microservice-app:api-gateway
@@ -80,6 +88,7 @@ services:
       - DOCKER_HOST=host.docker.internal
     depends_on:
       - discovery-server
+      - zipkin
     networks:
       - springboot-mysql-network
 
@@ -116,6 +125,7 @@ services:
       - broker
       - discovery-server
       - api-gateway
+      - zipkin
   inventory-service:
     container_name: inventory-service
     image: bharathchavala/microservice-app:inventory-service
@@ -144,6 +154,7 @@ services:
       - broker
       - discovery-server
       - api-gateway
+      - zipkin
   mysqldb:
     image: mysql
     ports:
