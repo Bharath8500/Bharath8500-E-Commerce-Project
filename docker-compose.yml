@@ -1,5 +1,35 @@
 version: '3.8'
 services:
+  prometheus:
+    image: prom/prometheus:v2.37.1
+    container_name: prometheus
+    restart: always
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
+    depends_on:
+      - product-service
+      - inventory-service
+      - order-service
+      - notification-service
+      - api-gateway
+
+  grafana:
+    image: grafana/grafana-oss:8.5.2
+    container_name: grafana
+    restart: always
+    ports:
+      - "3000:3000"
+    links:
+      - prometheus:prometheus
+    volumes:
+      - ./grafana:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=password
   zookeeper:
     image: confluentinc/cp-zookeeper:7.0.1
     container_name: zookeeper
@@ -41,12 +71,13 @@ services:
     container_name: api-gateway
     pull_policy: always
     ports:
-      - "8181:8080"
+      - "8181:8085"
     expose:
       - "8181"
     environment:
       - SPRING_PROFILES_ACTIVE=docker
       - LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_SECURITY= TRACE
+      - DOCKER_HOST=host.docker.internal
     depends_on:
       - discovery-server
     networks:
