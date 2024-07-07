@@ -6,82 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f19766ed-263d-468c-97fd-14c80443b2d2" name="Changes" comment="&quot;changes made&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/java/org/example/APIGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/main/java/org/example/APIGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-Server/src/main/resources/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-Server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/classes/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-Server/target/classes/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-Server/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/jib-cache/jib-classpath-file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/jib-cache/jib-main-class-file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/jib-cache/layers/0c761c6be716681b11220c0f3398cdb20e4715e7d52be97efb6a039350281333/5541943e0400eb83b7af18eb6af27b01c52f6cd049bae50e506a40a74758bc44" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/jib-cache/layers/9636c16f741f1aed74578a0a568f9ad8cb550303f2c2fc62be26a0bf56a1a152/37d8528507bad26d780cce4f48e2e222d0ee07ba2a60708a9c5112cea4c39c89" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/jib-cache/layers/eb8fbd71717826172e9cae22873618d487ef89d5cfaff7bfef9585c8ac078415/f37b198c8e557922e7f676e4102f6bd59b94213056d3490950efdbb3e753d8e1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/jib-cache/selectors/45074ca63c7baa9aa30c62e1c6de9d5de9436bd3ca3eb4be3443521af5f23cfb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/jib-image.digest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/jib-image.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/jib-image.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discovery-Server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/classes/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/target/classes/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/jib-cache/jib-classpath-file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/jib-cache/jib-main-class-file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/jib-cache/layers/4e41aba3afd8e02521f484ff4fd08b22b713b4ee34b8566da8a139d94ca8bfc2/95847cf0be9a9f54459219728c59c06e7575d362153b8b8295f5902447cd4890" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/jib-cache/layers/b80a51599b017f414533187d5649bd246d2076bd3fc3c9ef3ff9b96491d0102a/957354d9769bfdd50998182446dfc6864ba8bf7a114f15e9d9107679120af3d3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/jib-image.digest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/jib-image.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/jib-image.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Notification-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Notification-Service/src/main/resources/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Notification-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/target/classes/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Notification-Service/target/classes/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Notification-Service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/target/jib-cache/jib-classpath-file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/target/jib-cache/jib-main-class-file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/target/jib-cache/layers/0ec1f68369ed96a936e40e5c7b46a82f87e4ebbabb156e8fbf421221435b1e6f/5e8edfff4ce666b15d59fc7c3dc49b8382c9ccd77e8bb9f1897e5a70c9655f51" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/target/jib-cache/layers/bf55679becca1e753d69b9555a85c2068599f23b72248bc550123eea8f58d55e/312fd9b43e74a57d8c066c2080563d5b85cd31d02bc69422129dfb01e68989bd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/target/jib-image.digest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/target/jib-image.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/target/jib-image.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notification-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/target/classes/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/target/classes/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/target/jib-cache/jib-classpath-file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/target/jib-cache/jib-main-class-file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/target/jib-cache/layers/1c46ed6986ab846ed21a7fa00248428aa4c94c9921f542429f8ada6c7756e989/53454a9bfe9903970b1a7965df9bea6ac3dc0455d5328e04f2a839bc594f65fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/target/jib-image.digest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/target/jib-image.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/target/jib-image.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/example/demo/ProductService1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/example/demo/ProductService1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/classes/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/target/classes/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/jib-cache/jib-classpath-file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/jib-cache/jib-main-class-file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/jib-cache/layers/80807d92988b4392eefddeefdd0bf1c054d905692211ba3fafeb3999b969c5c9/6a92cbf175d3f1acde1bb627b74508c4f438e8a283a6f25e6d928d9730370752" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/jib-image.digest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/jib-image.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/jib-image.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grafana/grafana.db" beforeDir="false" afterPath="$PROJECT_DIR$/grafana/grafana.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,59 +34,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.APIGateway.executor": "Run",
-    "Application.APIGatewayApplication.executor": "Run",
-    "Application.DiscoveryServer.executor": "Run",
-    "Application.InventoryServiceApplication.executor": "Run",
-    "Application.NotificationService.executor": "Run",
-    "Application.OrderServiceApplication.executor": "Run",
-    "Application.ProductService1Application.executor": "Run",
-    "Application.com.example.api.gateway.APIGateway.executor": "Run",
-    "Docker.docker-compose.yml.api-gateway: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.broker: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.discovery-server: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.discovery: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.grafana: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.inventory-service: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.kafka: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mongo: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mysql-inventory: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mysql-service: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mysql: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.mysqldb: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.notification-service: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.order-service: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.postgres-inventory: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.postgres-order: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.product-service: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.prometheus: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.zipkin: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.zookeeper: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "Maven.Microservices-Parent [build].executor": "Run",
-    "Maven.Microservices-Parent [clean,compile...].executor": "Run",
-    "Maven.Microservices-Parent [clean].executor": "Run",
-    "Maven.Microservices-Parent [com.google.cloud.tools:jib-maven-plugin:3.2.1:build].executor": "Run",
-    "Maven.Microservices-Parent [install].executor": "Run",
-    "Maven.Microservices-Parent [jib:build].executor": "Run",
-    "Maven.Microservices-Parent [jib:clean].executor": "Run",
-    "Maven.api-gateway [com.google.cloud.tools:jib-maven-plugin:3.2.1:build].executor": "Run",
-    "Maven.api-gateway [com.google.cloud.tools:jib-maven-plugin:3.2.1:dockerBuild].executor": "Run",
-    "Maven.api-gateway [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bharathchowdary/Documents/SpringBoot-Projects/Microservices-Parent",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "tasks"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.APIGateway.executor&quot;: &quot;Run&quot;,
+    &quot;Application.APIGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiscoveryServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InventoryServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NotificationService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductService1Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.example.api.gateway.APIGateway.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.api-gateway: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.broker: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.discovery-server: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.discovery: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.grafana: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.inventory-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.kafka: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mongo: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mysql-inventory: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mysql-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mysql: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.mysqldb: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.notification-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.order-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.postgres-inventory: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.postgres-order: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.product-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.prometheus: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.zipkin: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.zookeeper: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [build].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [clean,compile...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [com.google.cloud.tools:jib-maven-plugin:3.2.1:build].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [jib:build].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Parent [jib:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.api-gateway [com.google.cloud.tools:jib-maven-plugin:3.2.1:build].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.api-gateway [com.google.cloud.tools:jib-maven-plugin:3.2.1:dockerBuild].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.api-gateway [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bharathchowdary/Documents/SpringBoot-Projects/Microservices-Parent&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;tasks&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.demo.entity" />
@@ -184,8 +108,8 @@
       <command value="mvn jib:clean" />
       <command value="mvn install" />
       <command value="mvn build" />
-      <command value="mvn clean compile jib:build" />
       <command value="mvn clean" />
+      <command value="mvn clean compile jib:build" />
     </option>
   </component>
   <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
