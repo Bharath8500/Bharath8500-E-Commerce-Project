@@ -1,1 +1,1 @@
-{"image":"bharathchavala/microservice-app:inventory-service","imageId":"sha256:5ed16f6935a637d5d8ed225a22b45a4a62b9892f30f4377c7d0f131c56a8ddaf","imageDigest":"sha256:9f8a70b0523f19343aa5019e5d0f03124ae1dba38c207f929029abe274ece63a","tags":["inventory-service"]}
+{"image":"bharathchavala/microservice-app:inventory-service","imageId":"sha256:83f042a78cffcd9f1904c8458f95f32cfa948f3bd6fda3f89064b4739c766922","imageDigest":"sha256:76f7abc33dc8938d3bf3faaef83e43558471487841199ffe87fe2b3a07072697","tags":["inventory-service"]}

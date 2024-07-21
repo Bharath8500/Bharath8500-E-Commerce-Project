@@ -1,1 +1,1 @@
-{"image":"bharathchavala/microservice-app:order-service","imageId":"sha256:ff5cde3767ab2845068816cbb563795fb834329b796fe28211e7f746397e7231","imageDigest":"sha256:3b55af6125862892341c3107b32c05df37711bd70f083e8e94a9eec69179c01f","tags":["order-service"]}
+{"image":"bharathchavala/microservice-app:order-service","imageId":"sha256:2811857e723c3647ad32b966f611c5904aa2dc45be87a5e26c6e5ba6218f846c","imageDigest":"sha256:b3a42b4ddd56673f99ca365c0864c3b583f8ea26f7e7b75a30c6b0e300881fc2","tags":["order-service"]}
