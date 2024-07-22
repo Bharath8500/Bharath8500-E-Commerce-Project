@@ -8,7 +8,7 @@
   <h2>Description:</h2>
   <p>Developed a comprehensive microservices-based architecture using Spring Boot, focusing on scalability, resilience, and asynchronous communication. This 
      project demonstrates a high-level architecture involving several microservices, each serving distinct functions within an e-commerce system.</p>
-    ![preview](Images/Architecture.png)
+    ![preview](Images/Architecture-2.png)
 </body>
 
 </html>
