@@ -10,6 +10,7 @@
      project demonstrates a high-level architecture involving several microservices, each serving distinct functions within an e-commerce system.</p>
 <img width="1280" alt="Architecture-2" src="https://github.com/user-attachments/assets/1730dee4-611e-458d-81a7-19e8fc852f87">
     ![image](https://github.com/Bharath8500/E-Commerce-Project/blob/updated-code/Images/Architecture-2.png)
+    <img src="https://github.com/Bharath8500/E-Commerce-Project/blob/updated-code/Images/Architecture-2.png"/>
     
 </body>
 
