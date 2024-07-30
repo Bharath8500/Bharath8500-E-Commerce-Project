@@ -20,8 +20,8 @@
       tools.
     </p>
     <h3>Diagram:</h3>
-    <img src="./Architecture.png" alt="" />
-
+<!--     <img src="./Architecture.png" alt="" />
+ -->
     <h2>1. API Gateway</h2>
     <p>
       Acts as the entry point for all client requests, routing them to the
